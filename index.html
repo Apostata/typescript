@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+    <title>TS via live server</title>
+    <script src="node_modules\systemjs\dist\system.js"></script>
+</head>
+<body>
+  <!--
+  <script src="src/introducao/basico.js"></script>
+  <script src="src/tipos/tipos.js"></script>
+  <script src="src/compilador/compilador.js"></script>
+  <script src="src/ecmascript/ecmascript.js"></script>
+  -->
+ 
+  <script src="src/namespaces/geometriaCirc.js"></script>
+  <script src="src/namespaces/geometriaRect.js"></script>
+  <script src="src/namespaces/namespaces.js"></script>
+  <!--
+  <script>
+    SystemJS.config({
+      baseUrl: 'src/modulos',
+      packages:{
+        'src/modulos':{
+          defaultJSExtension: true
+        }
+      }
+    })
+
+    SystemJS.import('src/modulos/modulos.js')
+  </script>
+  -->
+  <script src="src/interfaces/interfaces.js"></script>
+</body>
+</html>

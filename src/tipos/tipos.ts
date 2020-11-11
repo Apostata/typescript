@@ -58,7 +58,7 @@ console.log(RGB2);
 // Funções
 function teste() :string {
     const res = 'oi';
-    const res2 = 43;
+    // const res2 = 43;
     return res;
 }
 console.log(`function ${teste()}`)

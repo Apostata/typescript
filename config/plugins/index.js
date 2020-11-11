@@ -9,7 +9,7 @@ module.exports = [
     new HtmlWebpackPlugin({
         title: 'Typescript',
         server_host: environments.SERVER_HOST,
-        template: './index.html',
+        template: './index-wp.html',
         inject: 'body'
     })
 ];

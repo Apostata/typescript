@@ -5,15 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start-alt": "live-server --port=8081",
+    "start-ls": "concurrently --kill-others  \"live-server --port=8081\"  \"tsc -w\"",
     "start": "cross-env NODE_ENV=development webpack-dev-server --watch --hot --config=config/webpack.config.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "systemjs": "^0.21.6"
   },
   "devDependencies": {
+    "concurrently": "^5.2.0",
     "cross-env": "^7.0.2",
     "dotenv": "^8.2.0",
     "html-webpack-plugin": "^4.3.0",

@@ -9,9 +9,19 @@ const webpackConfig = {
     mode: ENV, //modo
     context: path.resolve(__dirname, '../src'),
     entry: {
-        basico:['./introducao/basico.ts'],
-        tipos:['./tipos/tipos.ts'],
-        compilador:['./compilador/compilador.ts']
+        // basico:['./introducao/basico.ts'],
+        // tipos:['./tipos/tipos.ts'],
+        // compilador:['./compilador/compilador.ts'],
+        // ecmascript:['./ecmascript/ecmascript.ts']
+        // classes:['./classes/classes.ts'],
+        // classes:['./classes/desafio.ts'],
+        // geometriaCirc:['./namespaces/geometriaCirc.ts'],
+        // geometriaRect:['./namespaces/geometriaRect.ts'],
+        // namespaces:['./namespaces/namespaces.ts'],
+        // modules:['./modulos/modulos.ts']
+        // interfaces:['./interfaces/interfaces.ts'],
+        // generics:['./generics/generics.ts']
+        decorators:['./decorators/decorators.ts']
     },
     output:{
         filename:'js/[name].js',
