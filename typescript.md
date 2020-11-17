@@ -988,3 +988,33 @@ class ContaCorrente{
     }
 }
 ````
+
+## Usando libs externas no Typescript
+### solução simples usando Declare
+arquivo exemplo libs.ts:
+````
+declare const $: any
+$('body').append('usando jQuery')
+````
+
+### solução simples arquivo de definição de tipos
+criar um arquivo  {nomeDaLib}.d.ts, no caso 'jQuery.d.ts':
+````
+declare const $: any
+````
+arquivo exemplo libs.ts:
+````
+$('body').append('usando jQuery')
+````
+
+### usando definição de tipos publicas, de libs já famosas de mercadoarquivo exemplo libs.ts:
+no caso do jquery instalar no projeto : `npm i -D @types/jquery`
+
+https://microsoft.github.io/TypeSearch/
+
+````
+$('body').append('usando jQuery')
+````
+
+### criando seu arquivo de definição 
+https://www.typescriptlang.org/docs/handbook/declaration-files/by-example.html

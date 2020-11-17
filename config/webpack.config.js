@@ -21,7 +21,8 @@ const webpackConfig = {
         // modules:['./modulos/modulos.ts']
         // interfaces:['./interfaces/interfaces.ts'],
         // generics:['./generics/generics.ts']
-        decorators:['./decorators/decorators.ts']
+        // decorators:['./decorators/decorators.ts'],
+        libs:['./libs/libs.ts']
     },
     output:{
         filename:'js/[name].js',

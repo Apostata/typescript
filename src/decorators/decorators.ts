@@ -160,10 +160,8 @@ console.log(cc.getSaldo())
 // decorator congelrar
 function readOnly(alvo:any, nomeMetodo:string, descritor: PropertyDescriptor){
     // console.log(alvo, nomeMetodo)
-    {
-        alvo
-        nomeMetodo
-    }
+    {alvo 
+    nomeMetodo}
 
     descritor.writable = false
 }
