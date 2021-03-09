@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add @babel/core @babel/preset-react babel-loadercross-env html-webpack-plugin webpack webpack-cli webpack-dev-server
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\rpereira\bin;C:\Python27;C:\Python27\Scripts;C:\Python\Scripts;C:\Python27;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\rpereira\AppData\Local\Microsoft\WindowsApps;C:\Users\rpereira\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\DEV\java-1.8.0\bin;C:\Program Files\LINQPad6;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\Users\rpereira\AppData\Local\Microsoft\WindowsApps;C:\Users\rpereira\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\rpereira\AppData\Local\Programs\Microsoft VS Code\bin;C:\Python27;C:\Users\rpereira\AppData\Local\Programs\Fiddler;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/babel-loadercross-env: Not found
+      at Request.params.callback [as _callback] (C:\Users\rpereira\AppData\Roaming\nvm\v12.18.0\node_modules\yarn\lib\cli.js:66988:18)
+      at Request.self.callback (C:\Users\rpereira\AppData\Roaming\nvm\v12.18.0\node_modules\yarn\lib\cli.js:140662:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (C:\Users\rpereira\AppData\Roaming\nvm\v12.18.0\node_modules\yarn\lib\cli.js:141634:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (C:\Users\rpereira\AppData\Roaming\nvm\v12.18.0\node_modules\yarn\lib\cli.js:141556:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1221:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "integracao-react",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
